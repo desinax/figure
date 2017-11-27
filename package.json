@@ -1,6 +1,6 @@
 {
   "name": "@desinax/figure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LESS module for the figure element and image presentation.",
   "main": "null",
   "scripts": {

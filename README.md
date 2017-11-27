@@ -1,7 +1,7 @@
 Desinax Figure (LESS)
 ===============================
 
-[![npm version](https://badge.fury.io/js/desinax-vertical-grid.svg)](https://badge.fury.io/js/desinax-vertical-grid)
+[![npm version](https://badge.fury.io/js/%40desinax%2Ffigure.svg)](https://badge.fury.io/js/%40desinax%2Ffigure)
 
 LESS module for the figure element and image presentation.
 
@@ -13,7 +13,7 @@ Install
 You can install using npm.
 
 ```text
-npm install desinax-vertical-grid
+npm install @desinax/figure
 ```
 
 
