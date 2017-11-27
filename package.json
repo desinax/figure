@@ -1,0 +1,24 @@
+{
+  "name": "@desinax/figure",
+  "version": "1.0.0",
+  "description": "LESS module for the figure element and image presentation.",
+  "main": "null",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desinax/figure.git"
+  },
+  "keywords": [
+    "LESS",
+    "figure",
+    "image"
+  ],
+  "author": "Mikael Roos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desinax/figure/issues"
+  },
+  "homepage": "https://github.com/desinax/figure#readme"
+}
