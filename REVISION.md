@@ -1,6 +1,12 @@
 Revision History
 =======================
 
+v1.0.2 (2017-12-07)
+------------------------
+
+* Added less/figure_from_canax when removing repo canax/figure.
+
+
 v1.0.1 (2017-11-27)
 ------------------------
 
