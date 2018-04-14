@@ -1,6 +1,6 @@
 {
   "name": "@desinax/figure",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Desinax LESS/SASS module for figure element and image presentation.",
   "main": "null",
   "scripts": {
@@ -23,7 +23,7 @@
     "url": "https://github.com/desinax/figure/issues"
   },
   "homepage": "https://github.com/desinax/figure#readme",
-  "dependencies": {
+  "devDependencies": {
     "clean-css": "^4.1.11",
     "css-styleguide": "^0.9.6",
     "eslint": "^4.19.1",
