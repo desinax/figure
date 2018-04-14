@@ -1,7 +1,7 @@
 {
   "name": "@desinax/figure",
   "version": "1.0.2",
-  "description": "LESS module for the figure element and image presentation.",
+  "description": "Desinax LESS/SASS module for figure element and image presentation.",
   "main": "null",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,9 @@
     "url": "git+https://github.com/desinax/figure.git"
   },
   "keywords": [
-    "LESS",
+    "less",
+    "sass",
+    "style",
     "figure",
     "image"
   ],
@@ -20,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/desinax/figure/issues"
   },
-  "homepage": "https://github.com/desinax/figure#readme"
+  "homepage": "https://github.com/desinax/figure#readme",
+  "dependencies": {
+    "clean-css": "^4.1.11",
+    "css-styleguide": "^0.9.6",
+    "eslint": "^4.19.1",
+    "less": "^2.7.1",
+    "less-plugin-clean-css": "^1.5.1",
+    "stylelint": "^9.2.0"
+  }
 }
