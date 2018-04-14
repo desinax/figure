@@ -1,7 +1,7 @@
 Revision History
 =======================
 
-v1.0.x (2018-04-14)
+v1.0.3 (2018-04-14)
 ------------------------
 
 * Added build/test through Makefile.
