@@ -6,7 +6,7 @@ v1.0.x (2018-04-14)
 
 * Added build/test through Makefile.
 * Moved all source files to src/.
-* Add to travis.
+* Add to travis and circleci.
 
 
 
