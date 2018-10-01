@@ -1,6 +1,6 @@
 #!/usr/bin/env make
 #
-# A Desinax Theme.
+# A Desinax Theme Module.
 # See organisation on GitHub: https://github.com/desinax
 
 # ------------------------------------------------------------------------
@@ -110,7 +110,7 @@ prepare:
 
 # target: build                   - Build the stylesheets.
 .PHONY: build
-build: prepare less lint
+build: prepare less less-lint
 	@$(call HELPTEXT,$@)
 
 
