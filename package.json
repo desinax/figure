@@ -27,7 +27,7 @@
     "clean-css": "^4.1.11",
     "css-styleguide": "^0.9.6",
     "eslint": "^4.19.1",
-    "less": "^2.7.1",
+    "less": "^3.8.1",
     "less-plugin-clean-css": "^1.5.1",
     "stylelint": "^9.2.0"
   }
