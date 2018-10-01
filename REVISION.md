@@ -3,6 +3,16 @@ Revision History
 
 
 
+v1.0.5 (2018-10-01)
+------------------------
+
+* Upgrade to less v3.
+* Add src/asciinema.less.
+* Add src/style.less to show usage on how to inlcude the files and optional settings.
+* Add setting for img.responsive.
+
+
+
 v1.0.4 (2018-04-14)
 ------------------------
 
