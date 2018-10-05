@@ -1,12 +1,3 @@
 /**
  * Figure with ASCIINEMA
  */
-figure.asciinema {
-  display: block;
-}
-figure.asciinema figcaption {
-  display: block;
-}
-figure.asciinema .asciicast {
-  margin: 0 !important;
-}
