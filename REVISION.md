@@ -6,6 +6,7 @@ v1.0.10 (2018-10-05)
 ------------------------
 
 * Align README for all modules.
+* Add htdocs/ for test using html and generated css.
 
 
 
