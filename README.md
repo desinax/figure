@@ -22,6 +22,13 @@ npm install @desinax/figure
 
 
 
+Usage
+-------------------------------
+
+You can review example usage HTML with generated CSS-files in the directory `htdocs/`. Open your browser to that directory and look around in the available files.
+
+
+
 ```
  . 
 ..:  Copyright (c) 2016-2018 Mikael Roos, mos@dbwebb.se 
