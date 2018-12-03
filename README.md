@@ -13,6 +13,8 @@ The module also includes styling related to figures encapsulating asciinema and 
 
 The module includes basic responsive design for images through media queries and a set of css-classes.
 
+![Figure aligned to the center](doc/img/align-center.png)
+
 
 
 Table of content
@@ -96,7 +98,7 @@ figure.figure-codepen {
 }
 ```
 
-The LESS construct `:extend()` allows a style to build upon a previois defined style. THe style for `.asciinema()` and `.codepen()` both build upon the style defined by `#desinax-figure.figure()`.
+The LESS construct `:extend()` allows a style to build upon a previois defined style. The style for `.asciinema()` and `.codepen()` both build upon the style defined by `#desinax-figure.figure()`.
 
 
 
@@ -123,6 +125,10 @@ This is a image with a figcaption.
 </figure>
 ```
 
+This is how it looks like.
+
+![Figure with caption](doc/img/with-caption.png)
+
 You might want to add your own special style to adapt the modules base style.
 
 
@@ -145,6 +151,8 @@ You might use the class `.center` to position the figure in the middle of its ar
 </figure>
 ```
 
+![Figure aligned to the center](doc/img/align-center.png)
+
 You can position the figure to the left using the class `.left` and have the text flow around it.
 
 ```html
@@ -156,6 +164,8 @@ You can position the figure to the left using the class `.left` and have the tex
 </figure>
 ```
 
+![Figure aligned to the left](doc/img/align-left.png)
+
 You can position the figure to the right using the class `.right` and have the text flow around it.
 
 ```html
@@ -166,6 +176,8 @@ You can position the figure to the right using the class `.right` and have the t
     </figcaption>
 </figure>
 ```
+
+![Figure aligned to the right](doc/img/align-right.png)
 
 
 
@@ -186,7 +198,27 @@ The following classes exists.
 | `.w50` | The image has default a width to approximate 50% of the text area. |
 | `.w67` | The image has default a width to approximate 67% of the text area. |
 
-You make the figure module aware of your max width during setup. There is an optional argument you can send when activating the figure module.
+The style applied does in general look like this, using the class `.w50` as an example.
+
+```less
+&.left,
+&.right {
+    @media screen {
+        @media (max-width: round(@maxContentWidth * 2 / 3)) {
+            &.w50 {
+                margin-left: 0;
+                margin-right: 0;
+                float: none;
+                img {
+                    width: @maxContentWidth * 2 / 3;
+                }
+            }
+        }
+    }
+}
+```
+
+You make the figure module aware of your `@maxContentWidth` during setup. There is an optional argument you can send when activating the figure module.
 
 ```less
 // Enable style from the module and optinally add customized layout
@@ -196,7 +228,23 @@ figure.figure {
 }
 ```
 
-Now a set of media queries act on each class and modify its layout for responsive purpose. There are a set of examples, where you can see how it works, in [`htdocs/`](htdocs).
+Now a set of media queries act on each class and modify its layout for responsive purpose. 
+
+Here follows a set of representations showing how the resposive class may affect them image.
+
+This is the initial look, the browser is wider than the `@maxContentWidth` and the images is set to have the class `.w50` since they initially take up half of the text area.
+
+![Responsive using .w50, step 1](doc/img/responsive-w50-step-1.png)
+
+The text flows around the image while the browser is ledd wide, the media query is not yet active.
+
+![Responsive using .w50, step 2](doc/img/responsive-w50-step-2.png)
+
+Now the breakpoint is reached for the media query and style is applied so the image takes up the full space and text does not flow around it.
+
+![Responsive using .w50, step 3](doc/img/responsive-w50-step-3.png)
+
+There are a set of examples, where you can see how it works, in [`htdocs/`](htdocs), using the various responsive classes.
 
 
 

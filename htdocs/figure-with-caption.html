@@ -1,21 +1,29 @@
 <!doctype html>
 <html>
 <head>
-    <title>Align figure to the center</title>
+    <title>Figure with caption</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/less/test_style.css">
 </head>
 <body>
-    <h1>Align figure using .center</h1>
+    <h1>Figure with caption</h1>
 
-    <p>This example shows how an image can be aligned to the center, even if the image has less width than the text area.</p>
+    <p>This example shows a figure with and without the figcaption.</p>
 
-    <figure class="figure center">
+    <p>First a picture with a figcaption.</p>
+
+    <figure class="figure">
         <img src="img/kabbe_533x200.jpg" alt="kabbe">
         <figcaption>
             <p>The dog Kabbe is out on a walk, just when the autumn has joined us.</p>
         </figcaption>
+    </figure>
+
+    <p>Then the same picture without a figcaption.</p>
+
+    <figure class="figure">
+        <img src="img/kabbe_533x200.jpg" alt="kabbe">
     </figure>
 
     <p style="color: #999">Text text text text text text text text text text text text text text text text text text text text text text text text text text.</p>
