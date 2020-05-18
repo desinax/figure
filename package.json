@@ -1,6 +1,6 @@
 {
   "name": "@desinax/figure",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "Desinax LESS/SASS module for figure element and image presentation.",
   "main": "null",
   "scripts": {

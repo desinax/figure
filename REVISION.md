@@ -2,7 +2,7 @@ Revision History
 =======================
 
 
-v1.2.0 (2020-05-18)
+v1.2.1 (2020-05-18)
 ------------------------
 
 * Enhanced responsivness for .w50 and .w25 using width.
